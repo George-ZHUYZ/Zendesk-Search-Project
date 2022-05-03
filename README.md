@@ -1,1 +1,41 @@
 # Zendesk-Search-Project
+To offer a simple command line application to search the provided data and return the results in a human readable format.
+
+## Description
+With the predefined three json files that are tickets, users and orgization, be capable of searching them by easy and simple keyboard inputs. Where the data exists, values from any related entities should be included in the results, i.e. searching organization by id should return its tickets and users. Whereby it accepts various kind of customized searching ways. And also be provided with a high scalability in the second time development.
+On the perspective of result outputs, return values are displayed as a line with the column name and corresponding values. Also be equipped with the strong robustness that could handle and report errors.
+
+## Getting Started
+### Dependencies
+* Any OS (Widnows, Unbuntu, MacOS and etc.) with Python 3.6+ installed.
+* PowserShell for Windows, Bash Shell for Unbuntu and MacOS.
+
+### Installing
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+* George Zhu 
+* https://github.com/George-ZHUYZ
+
+## Version History
+* 0.0.1
+    * Initial Release
+
+## License
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
