@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/GZProject/ZendeskSearch.py
+src/GZProject/__init__.py
+src/GZProject/organizations.json
+src/GZProject/tickets.json
+src/GZProject/users.json
+src/Zendesk_Search_GZ.egg-info/PKG-INFO
+src/Zendesk_Search_GZ.egg-info/SOURCES.txt
+src/Zendesk_Search_GZ.egg-info/dependency_links.txt
+src/Zendesk_Search_GZ.egg-info/requires.txt
+src/Zendesk_Search_GZ.egg-info/top_level.txt
