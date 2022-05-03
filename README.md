@@ -11,20 +11,33 @@ On the perspective of result outputs, return values are displayed as a line with
 * PowserShell for Windows, Bash Shell for Unbuntu and MacOS.
 
 ### Installing
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install or update pip to the latest version
+```
+py -m pip install --upgrade pip
+```
+* Install the package with the following command line
+```
+pip install -i https://test.pypi.org/simple/ Zendesk-Search-GZ
+```
 
 ### Executing program
-* How to run the program
-* Step-by-step bullets
+* Start the python progress on the terminal
 ```
-code blocks for commands
+python
+```
+* Then execute the program by the following command line
+```
+from GZProject import ZendeskSearch
 ```
 
 ## Help
-Any advise for common problems or issues.
+* Exactly matching search (Please keep the separator `@@`, and applies to any datatype of columns.)
 ```
-command to run if program contains helper info
+equal@@searching-value
+```
+* Contains search (Please keep the separator `@@`, and only applies to `varchar` datatype columns.)
+```
+like@@searching-value
 ```
 
 ## Authors
